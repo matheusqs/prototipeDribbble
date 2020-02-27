@@ -6,23 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mobile</title>
     <link rel="stylesheet" type="text/css" href="mobile.css">
-    <script src="mobile.js"></script>
+    <!-- <script src="mobile.js"></script> -->
 </head>
 
 <body>
     <article class="celular">
         <section class="celular-page">
             <header class="celular-page-header">
-                <section class="celular-page-header-title">
-                    <h2>Tonight</h2>
-                    <h6>Monday, November 25</h6>
+                <section class="celular-page-header-titles">
+                    <h2 class="celular-page-header-titles__title">Tonight</h2>
+                    <h6 class="celular-page-header-titles__subtitle">Monday, November 25</h6>
                 </section>
                 <section class="celular-page-header-price">
                     $32
                 </section>
             </header>
-            <section class="celular-page-nav"></section>
-            <section class="celular-page-options"></section>
+            <section class="celular-page-nav">
+                <section class="celular-page-nav__option celular-page-nav__option--active">Promotion</section>
+                <section class="celular-page-nav__option">Free Drink</section>
+                <section class="celular-page-nav__option">Happy Hour</section>
+            </section>
+            <section class="celular-page-options">
+                <section class="celular-page-options-option">
+                    <section class="celular-page-options-option__discount">
+                        <p>30%</p>
+                        <p>Discount</p>
+                    </section>
+                    <section>
+                        <h1>Blackbarry</h1>
+                        <h6>Fresh Drink</h6>
+                    </section>
+                </section>
+            </section>
         </section>
         <footer class="celular-actions">
             <section class="celular-actions__option celular-actions__option--active">
