@@ -1,0 +1,73 @@
+html,
+body {
+    background-color: grey;
+}
+
+body {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.celular {
+    flex-basis: 360px;
+    height: 720px;
+    background-color: #1E1E2C;
+    margin: 4px;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.celular-page {
+    flex: 7;
+    padding: 8%;
+}
+
+.celular-page-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.celular-page-header-title {
+    flex: 2;
+}
+
+.celular-page-header-price {
+    flex: 1;
+    background-color: #302E3D;
+    border-radius: 16px;
+}
+
+.celular-actions {
+    flex: 1;
+    background-color: #0D0D13;
+    border-radius: 24px 24px 32px 32px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.celular-actions__option {
+    color: #424053;
+    flex: 1;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.celular-actions__option--active {
+    flex: 2;
+}
+
+.celular-actions__option--active>section {
+    background-color: #44404F;
+    border-radius: 200px;
+    color: white;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
