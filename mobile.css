@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     background-color: grey;
 }
 
@@ -103,6 +104,9 @@ body {
     background-size: cover;
     border-radius: 32px;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .celular-page-options-option__discount {
@@ -110,16 +114,34 @@ body {
     height: 13.6%;
     border-radius: 8px;
     background-color: #1E1E2C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .celular-page-options-option__discount>p:first-child {
     margin: 0;
-    font-size: 15px;
+    font-size: 13px;
+    color: white;
 }
 
 .celular-page-options-option__discount>p {
     margin: 0;
     font-size: 7px;
+    color: rgb(118, 116, 126);
+}
+
+.celular-page-options-option-text__name {
+    margin: 0;
+    font-size: x-large;
+}
+
+.celular-page-options-option-text__type {
+    margin: 0;
+    color: rgb(181, 178, 194);
+    font-size: medium;
+    word-spacing: -4px;
 }
 
 .celular-actions {
@@ -153,4 +175,38 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.celular-page2 {
+    height: 100%;
+    border-radius: 32px;
+}
+
+.celular-page2-top {
+    box-sizing: border-box;
+    padding: 8%;
+    height: 53%;
+    background-image: url('./mentaCocktail.jpg');
+    background-size: cover;
+    border-radius: 32px;
+}
+
+.celular-page2-top__back {
+    width: 14%;
+    height: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1E1E2C;
+    border-radius: 8px;
+}
+
+.celular-page2-content {
+    box-sizing: border-box;
+    padding: 8%;
+    height: 55%;
+    position: relative;
+    top: -8%;
+    background-color: #1E1E2C;
+    border-radius: 32px;
 }
