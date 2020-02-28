@@ -209,4 +209,48 @@ body {
     top: -8%;
     background-color: #1E1E2C;
     border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.celular-page2-content-first {
+    flex: 2;
+    display: flex;
+}
+
+.celular-page2-content-first-details {
+    flex: 2;
+}
+
+.celular-page2-content-first-details__name {}
+
+.celular-page2-content-first-details__type {}
+
+.celular-page2-content-first-details-description {
+    display: flex;
+    height: ;
+}
+
+.celular-page2-content-first-details-description__detail {
+    flex: 1;
+    border: 2px solid rgba(69, 67, 73, 50%);
+    border-radius: 8px;
+    margin: 2%;
+}
+
+.celular-page2-content-first-details-description__detail>p {
+    margin: 0;
+    font-size: x-small;
+}
+
+.celular-page2-content-first-quantity {
+    flex: 1;
+}
+
+.celular-page2-content-price {
+    flex: 1;
+}
+
+.celular-page2-content-pay {
+    flex: 2;
 }
