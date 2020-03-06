@@ -67,6 +67,16 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: xx-large;
+}
+
+.celular-page-header-price__symbol {
+    display: flex;
+    align-items: flex-start;
+}
+
+.celular-page-header-price__symbol>span {
+    font-size: large;
 }
 
 .celular-page-nav {
@@ -85,6 +95,11 @@ body {
     height: 100%;
     color: rgb(118, 116, 126);
     font-size: small;
+    cursor: pointer;
+}
+
+.celular-page-nav__option:active {
+    color: rgb(55, 54, 59);
 }
 
 .celular-page-nav__option--active {
@@ -106,6 +121,11 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    cursor: pointer;
+}
+
+.celular-page-options-option:active {
+    opacity: 60%;
 }
 
 .celular-page-options-option__discount {
@@ -117,6 +137,15 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+}
+
+.celular-page-options-option__discount__symbol {
+    display: flex;
+    align-items: flex-start;
+}
+
+.celular-page-options-option__discount__symbol>span {
+    font-size: xx-small;
 }
 
 .celular-page-options-option__discount>p:first-child {
@@ -159,6 +188,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+}
+
+.celular-actions__option:active {
+    color: #22212b;
 }
 
 .celular-actions__option--active {
@@ -198,6 +232,11 @@ body {
     justify-content: center;
     background-color: #1E1E2C;
     border-radius: 8px;
+    cursor: pointer;
+}
+
+.celular-page2-top__back:active {
+    background-color: black;
 }
 
 .celular-page2-content {
@@ -206,7 +245,9 @@ body {
     height: 55%;
     position: relative;
     top: -8%;
-    background-color: #1E1E2C;
+    /* background-color: #1E1E2C; */
+    /* background-image: -webkit-linear-gradient(30deg, #013A6B 50%, #004E95 50%); */
+    background: linear-gradient(190deg,  #1E1E2C 0%,#1E1E2C 65%,#0D0D13 65%,#0D0D13 100%);
     border-radius: 32px;
     display: flex;
     flex-direction: column;
@@ -267,6 +308,12 @@ body {
     margin: 0;
     font-size: xx-small;
     color: rgb(118, 116, 126);
+    display: flex;
+    align-items: flex-start;
+}
+
+.celular-page2-content-first-details-description__detail>p>span{
+    font-size: 8px;
 }
 
 .celular-page2-content-first-quantity {
@@ -296,6 +343,11 @@ body {
     outline: none;
     width: 33%;
     height: 18%;
+    cursor: pointer;
+}
+
+.celular-page2-content-first-quantity-block__button:active {
+    background-color: rgb(0, 0, 0);
 }
 
 .celular-page2-content-first-quantity-block__number {
@@ -329,6 +381,12 @@ body {
 
 .celular-page2-content-price-block__price {
     margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.celular-page2-content-price-block__price>span {
+    font-size: 8px;
 }
 
 .celular-page2-content-price-block__text {
@@ -339,4 +397,79 @@ body {
 
 .celular-page2-content-pay {
     flex: 2;
+    display: flex;
+}
+
+.celular-page2-content-pay>section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.celular-page2-content-pay-first>p {
+    color: white;
+    font-size: medium;
+}
+
+.celular-page2-content-pay-first>p:first-child {
+    margin: auto 0 16px;
+}
+
+.celular-page2-content-pay-first>p:last-child {
+    margin: 0;
+    color: #424053;
+    font-size: x-small;
+}
+
+.celular-page2-content-pay-second>p{
+    margin: 0;
+    font-size: x-large;
+}
+
+.celular-page2-content-pay-second>p:last-child{
+    color: #424053;
+    font-size: x-small;
+}
+
+.celular-page2-content-pay-second__symbol {
+    display: flex;
+    align-items: flex-start;
+}
+
+.celular-page2-content-pay-second__symbol>span {
+    font-size: small;
+}
+
+.celular-page2-content-pay-third>section {
+    height: 100%;
+    width: 80%;
+    border-radius: 16px;
+    background-color: #4C4862;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 12px 0;
+    cursor: pointer;
+}
+
+.celular-page2-content-pay-third>section:active {
+    background-color: rgb(45, 42, 58);
+}
+
+.celular-page2-content-pay-third>section>img{
+    height: 30px;
+    width: 40px;
+    border-radius: 8px;
+}
+
+.celular-page2-content-pay-third>section>p , .celular-page2-content-pay-third>section>h2 {
+    margin: 0;
+}
+
+.celular-page2-content-pay-third>section>p {
+    font-size: x-small;
+    color: rgb(156, 154, 167);
 }
